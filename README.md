@@ -11,6 +11,7 @@ Speaker recognition project for fun. Aim to find the voice of special speaker in
 2、说话人识别引擎  
     从训练集中学习说话人声音特征，并能对预测集进行打分，当高于一定阈值，则判定为被识别人声音  
     基础方案：使用GMM-UBM做一个快速的学习和特征提取模型，以便尽快完成第一个demo。  
+    
 3、视频剪辑模块  
      根据结果，对视频文件进行剪辑（从离散的信号合成意识基本连贯的视频片段）  
      基础方案：使用moviepy 进行视频剪辑  
